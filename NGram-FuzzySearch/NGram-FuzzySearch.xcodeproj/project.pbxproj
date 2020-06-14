@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7713AF1424961CF20014791B /* DictionaryMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713AF1324961CF20014791B /* DictionaryMap.swift */; };
+		7713AF1624961D400014791B /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713AF1524961D400014791B /* Dictionary.swift */; };
+		7713AF17249631010014791B /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713AF1524961D400014791B /* Dictionary.swift */; };
+		7713AF19249639770014791B /* FuzzySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713AF18249639770014791B /* FuzzySearch.swift */; };
+		7713AF1B249643200014791B /* DictionaryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713AF1A2496431F0014791B /* DictionaryTest.swift */; };
+		7713AF1C24964FA90014791B /* FuzzySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713AF18249639770014791B /* FuzzySearch.swift */; };
+		7713AF1E249657E80014791B /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713AF1D249657E80014791B /* Metrics.swift */; };
+		7713AF1F249657EF0014791B /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713AF1D249657E80014791B /* Metrics.swift */; };
+		777437F2248FDDC300742649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777437F1248FDDC300742649 /* AppDelegate.swift */; };
+		777437F4248FDDC300742649 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777437F3248FDDC300742649 /* ViewController.swift */; };
+		777437F6248FDDC600742649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777437F5248FDDC600742649 /* Assets.xcassets */; };
+		777437F9248FDDC600742649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777437F7248FDDC600742649 /* Main.storyboard */; };
+		77743805248FDDC600742649 /* NGram_FuzzySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77743804248FDDC600742649 /* NGram_FuzzySearchTests.swift */; };
+		77743810248FDDC600742649 /* NGram_FuzzySearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7774380F248FDDC600742649 /* NGram_FuzzySearchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77743801248FDDC600742649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777437E6248FDDC300742649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 777437ED248FDDC300742649;
+			remoteInfo = "NGram-FuzzySearch";
+		};
+		7774380C248FDDC600742649 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777437E6248FDDC300742649 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 777437ED248FDDC300742649;
+			remoteInfo = "NGram-FuzzySearch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7713AF1324961CF20014791B /* DictionaryMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryMap.swift; sourceTree = "<group>"; };
+		7713AF1524961D400014791B /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		7713AF18249639770014791B /* FuzzySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuzzySearch.swift; sourceTree = "<group>"; };
+		7713AF1A2496431F0014791B /* DictionaryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryTest.swift; sourceTree = "<group>"; };
+		7713AF1D249657E80014791B /* Metrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metrics.swift; sourceTree = "<group>"; };
+		777437EE248FDDC300742649 /* NGram-FuzzySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NGram-FuzzySearch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		777437F1248FDDC300742649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		777437F3248FDDC300742649 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		777437F5248FDDC600742649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		777437F8248FDDC600742649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		777437FA248FDDC600742649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777437FB248FDDC600742649 /* NGram_FuzzySearch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NGram_FuzzySearch.entitlements; sourceTree = "<group>"; };
+		77743800248FDDC600742649 /* NGram-FuzzySearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NGram-FuzzySearchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77743804248FDDC600742649 /* NGram_FuzzySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NGram_FuzzySearchTests.swift; sourceTree = "<group>"; };
+		77743806248FDDC600742649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7774380B248FDDC600742649 /* NGram-FuzzySearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NGram-FuzzySearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7774380F248FDDC600742649 /* NGram_FuzzySearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NGram_FuzzySearchUITests.swift; sourceTree = "<group>"; };
+		77743811248FDDC600742649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		777437EB248FDDC300742649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777437FD248FDDC600742649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77743808248FDDC600742649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		777437E5248FDDC200742649 = {
+			isa = PBXGroup;
+			children = (
+				777437F0248FDDC300742649 /* NGram-FuzzySearch */,
+				77743803248FDDC600742649 /* NGram-FuzzySearchTests */,
+				7774380E248FDDC600742649 /* NGram-FuzzySearchUITests */,
+				777437EF248FDDC300742649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		777437EF248FDDC300742649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				777437EE248FDDC300742649 /* NGram-FuzzySearch.app */,
+				77743800248FDDC600742649 /* NGram-FuzzySearchTests.xctest */,
+				7774380B248FDDC600742649 /* NGram-FuzzySearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		777437F0248FDDC300742649 /* NGram-FuzzySearch */ = {
+			isa = PBXGroup;
+			children = (
+				777437F1248FDDC300742649 /* AppDelegate.swift */,
+				777437F3248FDDC300742649 /* ViewController.swift */,
+				777437F5248FDDC600742649 /* Assets.xcassets */,
+				777437F7248FDDC600742649 /* Main.storyboard */,
+				7713AF1324961CF20014791B /* DictionaryMap.swift */,
+				7713AF1524961D400014791B /* Dictionary.swift */,
+				777437FA248FDDC600742649 /* Info.plist */,
+				777437FB248FDDC600742649 /* NGram_FuzzySearch.entitlements */,
+				7713AF18249639770014791B /* FuzzySearch.swift */,
+				7713AF1D249657E80014791B /* Metrics.swift */,
+			);
+			path = "NGram-FuzzySearch";
+			sourceTree = "<group>";
+		};
+		77743803248FDDC600742649 /* NGram-FuzzySearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				77743804248FDDC600742649 /* NGram_FuzzySearchTests.swift */,
+				77743806248FDDC600742649 /* Info.plist */,
+				7713AF1A2496431F0014791B /* DictionaryTest.swift */,
+			);
+			path = "NGram-FuzzySearchTests";
+			sourceTree = "<group>";
+		};
+		7774380E248FDDC600742649 /* NGram-FuzzySearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7774380F248FDDC600742649 /* NGram_FuzzySearchUITests.swift */,
+				77743811248FDDC600742649 /* Info.plist */,
+			);
+			path = "NGram-FuzzySearchUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		777437ED248FDDC300742649 /* NGram-FuzzySearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77743814248FDDC600742649 /* Build configuration list for PBXNativeTarget "NGram-FuzzySearch" */;
+			buildPhases = (
+				777437EA248FDDC300742649 /* Sources */,
+				777437EB248FDDC300742649 /* Frameworks */,
+				777437EC248FDDC300742649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NGram-FuzzySearch";
+			productName = "NGram-FuzzySearch";
+			productReference = 777437EE248FDDC300742649 /* NGram-FuzzySearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		777437FF248FDDC600742649 /* NGram-FuzzySearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77743817248FDDC600742649 /* Build configuration list for PBXNativeTarget "NGram-FuzzySearchTests" */;
+			buildPhases = (
+				777437FC248FDDC600742649 /* Sources */,
+				777437FD248FDDC600742649 /* Frameworks */,
+				777437FE248FDDC600742649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77743802248FDDC600742649 /* PBXTargetDependency */,
+			);
+			name = "NGram-FuzzySearchTests";
+			productName = "NGram-FuzzySearchTests";
+			productReference = 77743800248FDDC600742649 /* NGram-FuzzySearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7774380A248FDDC600742649 /* NGram-FuzzySearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7774381A248FDDC600742649 /* Build configuration list for PBXNativeTarget "NGram-FuzzySearchUITests" */;
+			buildPhases = (
+				77743807248FDDC600742649 /* Sources */,
+				77743808248FDDC600742649 /* Frameworks */,
+				77743809248FDDC600742649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7774380D248FDDC600742649 /* PBXTargetDependency */,
+			);
+			name = "NGram-FuzzySearchUITests";
+			productName = "NGram-FuzzySearchUITests";
+			productReference = 7774380B248FDDC600742649 /* NGram-FuzzySearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		777437E6248FDDC300742649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Eduard Dzhumagaliev";
+				TargetAttributes = {
+					777437ED248FDDC300742649 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					777437FF248FDDC600742649 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 777437ED248FDDC300742649;
+					};
+					7774380A248FDDC600742649 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 777437ED248FDDC300742649;
+					};
+				};
+			};
+			buildConfigurationList = 777437E9248FDDC300742649 /* Build configuration list for PBXProject "NGram-FuzzySearch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 777437E5248FDDC200742649;
+			productRefGroup = 777437EF248FDDC300742649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				777437ED248FDDC300742649 /* NGram-FuzzySearch */,
+				777437FF248FDDC600742649 /* NGram-FuzzySearchTests */,
+				7774380A248FDDC600742649 /* NGram-FuzzySearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		777437EC248FDDC300742649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777437F6248FDDC600742649 /* Assets.xcassets in Resources */,
+				777437F9248FDDC600742649 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777437FE248FDDC600742649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77743809248FDDC600742649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		777437EA248FDDC300742649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7713AF1424961CF20014791B /* DictionaryMap.swift in Sources */,
+				7713AF1E249657E80014791B /* Metrics.swift in Sources */,
+				7713AF1624961D400014791B /* Dictionary.swift in Sources */,
+				777437F4248FDDC300742649 /* ViewController.swift in Sources */,
+				777437F2248FDDC300742649 /* AppDelegate.swift in Sources */,
+				7713AF19249639770014791B /* FuzzySearch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777437FC248FDDC600742649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77743805248FDDC600742649 /* NGram_FuzzySearchTests.swift in Sources */,
+				7713AF1B249643200014791B /* DictionaryTest.swift in Sources */,
+				7713AF1F249657EF0014791B /* Metrics.swift in Sources */,
+				7713AF1C24964FA90014791B /* FuzzySearch.swift in Sources */,
+				7713AF17249631010014791B /* Dictionary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77743807248FDDC600742649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77743810248FDDC600742649 /* NGram_FuzzySearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77743802248FDDC600742649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 777437ED248FDDC300742649 /* NGram-FuzzySearch */;
+			targetProxy = 77743801248FDDC600742649 /* PBXContainerItemProxy */;
+		};
+		7774380D248FDDC600742649 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 777437ED248FDDC300742649 /* NGram-FuzzySearch */;
+			targetProxy = 7774380C248FDDC600742649 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		777437F7248FDDC600742649 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777437F8248FDDC600742649 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77743812248FDDC600742649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77743813248FDDC600742649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		77743815248FDDC600742649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NGram-FuzzySearch/NGram_FuzzySearch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "NGram-FuzzySearch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terriblegoodday.NGram-FuzzySearch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		77743816248FDDC600742649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NGram-FuzzySearch/NGram_FuzzySearch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "NGram-FuzzySearch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terriblegoodday.NGram-FuzzySearch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		77743818248FDDC600742649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				INFOPLIST_FILE = "NGram-FuzzySearchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "terriblegoodday.NGram-FuzzySearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NGram-FuzzySearch.app/Contents/MacOS/NGram-FuzzySearch";
+			};
+			name = Debug;
+		};
+		77743819248FDDC600742649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				INFOPLIST_FILE = "NGram-FuzzySearchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "terriblegoodday.NGram-FuzzySearchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NGram-FuzzySearch.app/Contents/MacOS/NGram-FuzzySearch";
+			};
+			name = Release;
+		};
+		7774381B248FDDC600742649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				INFOPLIST_FILE = "NGram-FuzzySearchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terriblegoodday.NGram-FuzzySearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NGram-FuzzySearch";
+			};
+			name = Debug;
+		};
+		7774381C248FDDC600742649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HA8PQ78LFS;
+				INFOPLIST_FILE = "NGram-FuzzySearchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "terriblegoodday.NGram-FuzzySearchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NGram-FuzzySearch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		777437E9248FDDC300742649 /* Build configuration list for PBXProject "NGram-FuzzySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77743812248FDDC600742649 /* Debug */,
+				77743813248FDDC600742649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77743814248FDDC600742649 /* Build configuration list for PBXNativeTarget "NGram-FuzzySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77743815248FDDC600742649 /* Debug */,
+				77743816248FDDC600742649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77743817248FDDC600742649 /* Build configuration list for PBXNativeTarget "NGram-FuzzySearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77743818248FDDC600742649 /* Debug */,
+				77743819248FDDC600742649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7774381A248FDDC600742649 /* Build configuration list for PBXNativeTarget "NGram-FuzzySearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7774381B248FDDC600742649 /* Debug */,
+				7774381C248FDDC600742649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 777437E6248FDDC300742649 /* Project object */;
+}
