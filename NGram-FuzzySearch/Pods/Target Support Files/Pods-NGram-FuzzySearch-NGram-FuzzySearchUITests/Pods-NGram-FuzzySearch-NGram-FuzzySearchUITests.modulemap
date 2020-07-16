@@ -1,0 +1,6 @@
+framework module Pods_NGram_FuzzySearch_NGram_FuzzySearchUITests {
+  umbrella header "Pods-NGram-FuzzySearch-NGram-FuzzySearchUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
