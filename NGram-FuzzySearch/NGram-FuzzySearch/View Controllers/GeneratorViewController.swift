@@ -33,7 +33,7 @@ class GeneratorViewController: NSViewController {
         if seedWord.stringValue == "" {
             let alert = NSAlert()
             alert.messageText = messageText
-            alert.informativeText = "Пустая последовательность триграм."
+            alert.informativeText = "Не введено слово, из которого будет генерироваться словарь."
             alert.beginSheetModal(for: self.view.window!, completionHandler: nil)
             return
         }

@@ -112,8 +112,8 @@ class TverskyIndex: Metric {
         let v1 = Set(word1.ngrams).count - agreeTotal
         let v2 = Set(word2.ngrams).count - agreeTotal
         
-        let alpha = 0.5
-        let beta = 4.0
+        let alpha = 4.0
+        let beta = 0.5
         
         print(word1.ngrams)
         
